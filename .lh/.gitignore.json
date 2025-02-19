@@ -1,0 +1,22 @@
+{
+    "sourceFile": ".gitignore",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1739959630639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1739959659786,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,4 +15,5 @@\n venv/\r\n .idea/\r\n .vscode/\r\n .DS_Store\r\n+.venv\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1739959630639,
+            "name": "Commit-0",
+            "content": "# Ignore old script and sensitive data\r\nold_load_data.py\r\nuser_interactions.json\r\n\r\n# Ignore contents of directories\r\ndatabase/*\r\ndata/*\r\n\r\n# Python specific ignores\r\n__pycache__/\r\n*.pyc\r\n*.pyo\r\n*.pyd\r\n.env\r\nvenv/\r\n.idea/\r\n.vscode/\r\n.DS_Store\r\n"
+        }
+    ]
+}

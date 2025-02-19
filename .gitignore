@@ -1,0 +1,19 @@
+# Ignore old script and sensitive data
+old_load_data.py
+user_interactions.json
+
+# Ignore contents of directories
+database/*
+data/*
+
+# Python specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.idea/
+.vscode/
+.DS_Store
+.venv
